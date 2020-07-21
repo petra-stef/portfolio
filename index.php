@@ -104,7 +104,7 @@
 
     <!-- 4th Project -->
     <div class="project">
-      <img class="project-img" src="./img/pink_rectangle.svg">
+      <img class="project-img" src="./img/project4.png">
       <div class="project-header">
         <h2>Website for RISE - an NPO restoring rainforests. </h2>
       </div>

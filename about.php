@@ -56,8 +56,6 @@
 
     <div class="gap"></div>
 
-    <div class="footer">&#169 Copyright 2020. Petra Stefanec.</div>
-
 </body>
 
 </html>

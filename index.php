@@ -60,7 +60,7 @@
           whose main goal is to make the cooking process easier for beginners,
           reduce food waste and help users save time and money.</p>
         <div class="project-sub-detail">
-          <p><a href="">SEE CASE STUDY</a><span><img src="./img/arrow.svg"></span></p>
+          <p><a href="project.php">SEE CASE STUDY</a><span><img src="./img/arrow.svg"></span></p>
         </div>
       </div>
     </div>
@@ -147,7 +147,7 @@
 
     <div class="gap"></div>
   </div>
-  <div class="footer">&#169 Copyright 2020. Petra Stefanec.</div>
+  <div class="footer">Copyright 2020.</div>
 </body>
 
 </html>

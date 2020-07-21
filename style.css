@@ -1,11 +1,12 @@
 html, body {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   background-color: #FAF5F2;
   color: #272B32;
+  overflow-x: hidden;
 }
 
 /* home */
@@ -113,7 +114,7 @@ html, body {
 }
 
 .navbar ul li a:hover {
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .menu {
@@ -132,7 +133,7 @@ h1, h2 {
 }
 
 .top {
-  transform:translate(0,30%);
+  transform: translate(0, 30%);
 }
 
 .top-deco {
@@ -422,9 +423,8 @@ h1, h2 {
 }
 
 .social-medias>span>a:hover {
-color: #FFB0B0;
+  color: #FFB0B0;
 }
-
 
 .footer {
   background: #2D4A91;
@@ -532,3 +532,330 @@ color: #FFB0B0;
   margin-right: 3em;
 }
 
+/* project page */
+
+.project-hero {
+  background: url(./img/block.png) no-repeat center;
+  background-size: cover;
+  max-height: 85%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-screens {
+  width: 55%;
+  height: auto;
+  transform: translate(78%, -8.9%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 35%;
+  width: 25%;
+  left: 15%;
+}
+
+.hero-text h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 112%;
+  line-height: 172.8%;
+  letter-spacing: 0.05em;
+  color: #272B32;
+  margin-bottom: 5em;
+}
+
+.hero-text h3 {
+  font-family: Corben;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 270%;
+  line-height: 172.8%;
+  letter-spacing: 0.05em;
+  color: #FAF5F2;
+  margin: 0;
+  padding: 0;
+}
+
+.role-table {
+  border: 1px solid #FFB0B0;
+  margin: 2% auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #FFB0B0;
+  padding: 1%;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 112%;
+  line-height: 21px;
+  color: #272B32;
+  background-color: #fff6f6;
+}
+
+.timeline {
+  width: 60%;
+  margin: 2% 20%;
+  text-align: center;
+  padding: 0;
+}
+
+#headlines {
+  font-family: Corben;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 175%;
+  line-height: 172.8%;
+  letter-spacing: 0.05em;
+  color: #272B32;
+  text-align: center;
+  margin: 3% 0;
+}
+
+#paragraphs {
+  margin: 0 auto;
+  padding: 0 15%;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 112%;
+  line-height: 180%;
+  color: #272B32;
+}
+
+.interviews div {
+  background: #F0F0F0;
+  border: 1px solid #888786;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  margin: 2%;
+  width: 30%;
+  padding: 2%;
+}
+
+.interviews h3 {
+  text-align: center;
+  font-family: Work Sans;
+  font-weight: 700;
+  font-size: 112%;
+  line-height: 21px;
+  color: #FF6141;
+}
+
+.interviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.handwritten1 {
+  background-image: url(./img/handwritten1.png);
+  background-repeat: no-repeat;
+  background-position: 80% 35%;
+  font-family: Corben;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 175%;
+  line-height: 172.8%;
+  letter-spacing: 0.05em;
+  color: #272B32;
+  text-align: center;
+  margin: 0;
+  height: 20%;
+  padding-top: 12%;
+}
+
+#subgoals div {
+  width: 25%;
+  background: #FFBEB0;
+  border-radius: 4px;
+  padding: 1%;
+  margin: 1%;
+}
+
+#subgoals h3 {
+  font-family: Work Sans;
+  text-align: center;
+  font-size: 112%;
+}
+
+#subgoals h4 {
+  font-family: Work Sans;
+  color: #F0F0F0;
+  font-weight: 500;
+}
+
+#subgoals ul li {
+  list-style-type: none;
+  font-family: Work Sans;
+  font-size: 112%;
+  margin: 1% 0;
+  line-height: 150%;
+}
+
+#subgoals ul li:before {
+  content: '\01F536';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+#subgoals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.persona img {
+  width: 70vw;
+  margin: 5% 15% 5% 15%;
+}
+
+.user-flow-link {
+  color: #272B32;
+  font-family: Work Sans;
+  font-size: 112%;
+  text-align: center;
+}
+
+.link-container {
+  text-align: center;
+}
+
+figure img {
+  width: 70%;
+  height: auto;
+  margin: 5% 15% 5% 15%;
+}
+
+figcaption {
+  font-family: Work Sans;
+  font-style: italic;
+  font-size: 112%;
+  text-align: center;
+}
+
+.low-fi {
+  width: 100%;
+  height: auto;
+  margin: 3% 0;
+}
+
+.feedback {
+  width: 50%;
+  height: auto;
+  margin: 5% 23% 5% 27%;
+}
+
+#improved ul li {
+  font-family: Work Sans;
+  font-size: 112%;
+  list-style-type: none;
+  margin: 1% 0;
+  line-height: 180%;
+}
+
+#improved li:before {
+  content: '\01F536';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+#improved {
+  width: 50%;
+  margin: 2% 18% 2% 32%;
+}
+
+#prototypes {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 10% 0;
+  align-items: center;
+}
+
+#prototypes img {
+  width: 25%;
+  height: auto;
+}
+
+#screen-info {
+  font-family: Work Sans;
+  width: 30%;
+  margin-right: 8em;
+  margin-bottom: 5em;
+  font-size: 120%;
+  line-height: 180%;
+}
+
+#screen-description {
+  font-size: 200%;
+}
+
+#number {
+  color: #FAF5F2;
+  font-family: Corben;
+  font-size: 280%;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,-1px -1px 0 #000;
+}
+
+#improved2 {
+  width: 60%;
+  margin: 2% 20% 2% 20%;
+}
+
+#improved2 ul li {
+  font-family: Work Sans;
+  font-size: 112%;
+  list-style-type: none;
+  margin: 1% 0;
+  line-height: 180%;
+}
+
+#improved2 li:before {
+  content: '\01F536';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.improved2-text {
+  text-align: center;
+  font-family: Work Sans;
+}
+
+.other-projects {
+  text-align: center;
+}
+
+.other-projects li a {
+  color: #272B32;
+  font-family: Work Sans;
+  font-size: 112%;
+  font-weight: 700;
+
+}
+
+.other-projects li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 2em;
+  margin-bottom: 5em;
+}
+
+.other-projects li a:hover {
+  color: #FFB0B0;
+}
+
+#headline-final {
+  font-family: Corben;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 175%;
+  line-height: 172.8%;
+  letter-spacing: 0.05em;
+  color: #2D4A91;
+  text-align: center;
+  margin: 7% 0 3% 0;
+}

@@ -78,7 +78,7 @@
           in your home environment based on factors such as light condition,
           maintenance level and light.</p>
         <div class="project-sub-detail">
-          <p><a href="">SEE CASE STUDY</a><span><img src="./img/arrow.svg"></span></p>
+          <p><a href="https://www.behance.net/gallery/95451487/Terra-Plant-Recommendation-App" target="_blank" rel="noopener noreferrer">SEE CASE STUDY</a><span><img src="./img/arrow.svg"></span></p>
         </div>
       </div>
     </div>
@@ -141,8 +141,8 @@
       reach me through my email or my other accounts.
     </div>
     <div class="gap-after-title"></div>
-    <div class="social-medias"><span><a href="">E-mail</a></span><span><a href="">LinkedIn</a></span>
-      <span><a href="">Dribbble</a></span><span><a href="">Instagram</a></span>
+    <div class="social-medias"><span><a href="mailto: petra.stefane@gmail.com" target="_blank">E-mail</a></span><span><a href="https://www.linkedin.com/in/petra-stefanec/" target="_blank">LinkedIn</a></span>
+      <span><a href="https://dribbble.com/petrastefanec" target="_blank">Dribbble</a></span><span><a href="https://www.instagram.com/lallapeachy/" target="_blank">Instagram</a></span>
     </div>
 
     <div class="gap"></div>

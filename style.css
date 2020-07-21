@@ -25,13 +25,13 @@ html, body {
   position: absolute;
   width: 100%;
   height: 80vh;
-  background-color: rgba(255, 166, 144, 0.7);
+  background-color: rgba(252, 215, 213, .74);
 }
 
 /* about */
 
 .about_top_background {
-  height: 80vh;
+  height: 100%;
   background-color: rgba(252, 215, 213, .74);
 }
 
@@ -49,7 +49,7 @@ html, body {
 .about_me_content {
   grid-column: 2;
   grid-row: 1;
-  padding-top: 10%;
+  padding-top: 6%;
 }
 
 .about_me_content>p {
@@ -57,7 +57,7 @@ html, body {
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 112%;
   line-height: 172.8%;
   letter-spacing: 0.05em;
   color: #272B32;
@@ -65,9 +65,7 @@ html, body {
 
 .about_me_content>h2 {
   font-family: Work Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
+  font-size: 112%;
   line-height: 172.8%;
   letter-spacing: 0.05em;
   color: #2D4A91;
@@ -80,7 +78,7 @@ html, body {
   line-height: 400%;
 }
 
-ul {
+.navbar ul {
   display: flex;
   justify-content: space-between;
 }
@@ -96,13 +94,26 @@ ul {
   text-decoration: none;
   position: relative;
   bottom: .8vh;
+  transition: color .3s;
 }
 
-ul li {
+.logo:hover {
+  color: #FFFFFF;
+}
+
+.navbar ul li {
   float: right;
   display: flex;
   padding-left: 9vw;
   z-index: 2;
+}
+
+.navbar ul li a {
+  transition: color .3s;
+}
+
+.navbar ul li a:hover {
+color: #FFFFFF;
 }
 
 .menu {
@@ -121,7 +132,7 @@ h1, h2 {
 }
 
 .top {
-  transform: translate(0, 40%);
+  transform:translate(0,30%);
 }
 
 .top-deco {
@@ -216,7 +227,7 @@ h1, h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 112%;
   line-height: 172.8%;
   padding: 2vw;
   display: grid;
@@ -247,6 +258,7 @@ h1, h2 {
 }
 
 /* projects section */
+
 .project {
   position: relative;
   height: 45vw;
@@ -261,7 +273,7 @@ h1, h2 {
 
 .project-header {
   padding-top: 7%;
-  padding-left: 47%;
+  padding-left: 38%;
   font-family: Corben;
   font-style: normal;
   font-weight: bold;
@@ -293,7 +305,7 @@ h1, h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 112%;
   line-height: 172.8%;
   letter-spacing: 0.05em;
   color: #272B32;
@@ -343,7 +355,7 @@ h1, h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 112%;
   line-height: 200%;
   text-align: center;
   letter-spacing: 0.05em;
@@ -354,7 +366,7 @@ h1, h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 112%;
   line-height: 200%;
   text-align: center;
   letter-spacing: 0.05em;
@@ -406,7 +418,13 @@ h1, h2 {
   letter-spacing: 0.05em;
   text-decoration-line: underline;
   color: #2D4A91;
+  transition: color .3s;
 }
+
+.social-medias>span>a:hover {
+color: #FFB0B0;
+}
+
 
 .footer {
   background: #2D4A91;
@@ -414,10 +432,103 @@ h1, h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 112%;
   line-height: 172.8%;
   letter-spacing: 0.05em;
   color: #FAF5F2;
   text-align: center;
   padding: 1vh;
 }
+
+/* styling the about me divs */
+
+.about-me-h2 {
+  font-family: Corben;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 230%;
+  line-height: 172.8%;
+  letter-spacing: 0.05em;
+  color: #2D4A91;
+  text-align: center;
+  margin: 2em;
+}
+
+.about-me, .about-me2 {
+  width: 37%;
+  height: auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 25px;
+  padding: 1%;
+}
+
+.about-me h3, .about-me2 h3 {
+  font-family: Work Sans;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.about-me ul li, .about-me2 ul li {
+  font-family: Work Sans;
+  font-size: 112%;
+  line-height: 172.8%;
+  letter-spacing: 0.05em;
+  color: #272B32;
+  list-style: none;
+}
+
+.about-me li:before {
+  content: '\01F496';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.about-me2 li:before {
+  content: '\01F31F';
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.about-me-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 5em 10em 5em;
+}
+
+.button-1 {
+  padding: 1em 3em;
+  border-radius: 12px;
+  font-family: Work Sans;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #FFB0B0;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(255, 176, 176, 0.12), 0px 4px 8px rgba(255, 176, 176, 0.18);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.button-1:hover {
+  background-color: #2D4A91;
+}
+
+.resume-link {
+  display: flex;
+  justify-content: center;
+  margin: 5em 8em;
+}
+
+.resume-link h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200%;
+  line-height: 172.8%;
+  letter-spacing: 0.05em;
+  color: #2D4A91;
+  margin-right: 3em;
+}
+

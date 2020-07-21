@@ -147,7 +147,7 @@
 
     <div class="gap"></div>
   </div>
-  <div class="footer">Copyright 2020.</div>
+  <div class="footer">&#169 Copyright 2020. Petra Stefanec.</div>
 </body>
 
 </html>

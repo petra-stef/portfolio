@@ -68,7 +68,7 @@
 
     <!-- 2nd Project -->
     <div class="project">
-      <img class="project-img" src="./img/pink_rectangle.svg">
+      <img class="project-img" src="./img/project2.png">
       <div class="project-header">
         <h2>Plant recommendation and plant care app.</h2>
       </div>
@@ -86,7 +86,7 @@
 
     <!-- 3rd Project -->
     <div class="project">
-      <img class="project-img" src="./img/pink_rectangle.svg">
+      <img class="project-img" src="./img/unknowneurope2.gif">
       <div class="project-header">
         <h2>Website introducing unknown travel spots.</h2>
       </div>

@@ -263,6 +263,7 @@ h1, h2 {
 .project {
   position: relative;
   height: 45vw;
+  z-index: 1;
 }
 
 .project-img {

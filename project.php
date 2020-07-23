@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8" />
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
 <head>
-  <title>Petra's Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="petra stefanec portfolio ui/ux designer product designer">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <title>Petra - Recipe App</title>
+  <script src="dist/html5shiv.js"></script>
 </head>
 
 <body>
@@ -69,7 +72,7 @@ Also, a lot of food is wasted or thrown away because people tend to buy grocerie
     <p id="paragraphs">Based on the interviews and research done on people’s motives not to cook and to eat out 
       or buy pre-made food and on the food waste, I came up with goals and objectives for the app.</p>
 
-  <h2 class="handwritten1">Main goal</h2>
+  <h2 id="headlines">Main goal</h2>
   <p id="paragraphs">To develop a highly visual recipe-sharing app targeted for cooks of all
 levels, with a slight more focus on beginner cooks.
 With the help of instructions in the form of both text and photos, users would be able to cook easily and enjoyably.</p>
@@ -133,7 +136,7 @@ With the help of instructions in the form of both text and photos, users would b
 <h2 id="headlines">Persona</h2>
 <p id="paragraphs">After deciding on the goals and objectives, I created a persona to represent the main target audience.</p>
 
-<div class="persona"><img src="./img/persona1.png" alt=""></div>
+<div class="persona"><img src="./img/persona.png" alt=""></div>
 
 <h2 id="headlines">User flow</h2>
 <p id="paragraphs">Before moving on to wireframes and the prototype, to help with the logic 
@@ -296,7 +299,8 @@ Serving size can also be adjusted to fit users’ needs and the ingredients amou
 </ul>
     
 
-<div class="footer">Copyright 2020.</div>
+<div class="gap"></div>
+<div class="footer">&#169 Copyright 2020. Petra Stefanec.</div>
 
 </body>
 

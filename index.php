@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8" />
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
 <head>
-  <title>Petra's Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="petra stefanec portfolio ui/ux designer product designer">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <title>Petra Stefanec</title>
+  <script src="dist/html5shiv.js"></script>
 </head>
 
 <body>
@@ -17,36 +21,10 @@
     ?>
   </div>
   <div class="main">
-    <!-- Title: Skillset -->
-    <div><img src="./img/01.svg"><span class="sub-head-title">My Skillset</span></div>
-    <div class="gap-after-title"></div>
-    <div class="cards">
-      <div class="card">
-        <h2>Design (UI/UX)</h2>
-        <p>Designing user interfaces or websites is my main area of interest.
-          I like thinking about different solutions to problems and how we can use design to fix them.</p>
-        <div class="card-img"><img src="./img/figma.svg"><img src="./img/xd.svg"></div>
-      </div>
-      <div class="card">
-        <h2>Front-end</h2>
-        <p>I like to see design in action and I believe that knowing how it can be implemented can help tremendously when designing.
-          It also enables you to comunicate with developers smoothly and know your boundaries.</p>
-        <div class="card-img"><img src="./img/html.svg"><img src="./img/css.svg"></div>
-      </div>
-      <div class="card">
-        <h2>Illustration</h2>
-        <p>I believe illustrations transmit a message much better than a text or image can in some situations.
-          It also helps in establishing a brand experience,
-          It is currently just a hobby but in the future I would love to develop this skill more.</p>
-        <div class="card-img"><img src="./img/procreate.svg"></div>
-      </div>
-    </div>
-    <div class="gap-after-title"></div>
 
     <!-- Title: Projects -->
-    <div class="sub-head2"><span class="sub-head-title2">Selected Work</span><img src="./img/02.svg"></div>
     <div class="gap"></div>
-    <div class="gap-after-title"></div>
+    <div class="gap"></div>
     <!-- 1st Project -->
     <div class="project">
       <img class="project-img" src="./img/project1.png">
@@ -60,7 +38,7 @@
           whose main goal is to make the cooking process easier for beginners,
           reduce food waste and help users save time and money.</p>
         <div class="project-sub-detail">
-          <p><a href="project.php">SEE CASE STUDY</a><span><img src="./img/arrow.svg"></span></p>
+          <p><a href="project.php">SEE CASE STUDY</a><span><img src="./img/right.svg"></span></p>
         </div>
       </div>
     </div>
@@ -78,7 +56,7 @@
           in your home environment based on factors such as light condition,
           maintenance level and light.</p>
         <div class="project-sub-detail">
-          <p><a href="https://www.behance.net/gallery/95451487/Terra-Plant-Recommendation-App" target="_blank" rel="noopener noreferrer">SEE CASE STUDY</a><span><img src="./img/arrow.svg"></span></p>
+          <p><a href="https://www.behance.net/gallery/95451487/Terra-Plant-Recommendation-App" target="_blank" rel="noopener noreferrer">SEE CASE STUDY</a><span><img src="./img/right.svg"></span></p>
         </div>
       </div>
     </div>
@@ -96,7 +74,7 @@
           It includes a landing page, blog post,
           and a contact page with a form that validates. </p>
         <div class="project-sub-detail">
-          <p><a href="">DISCOVER THE PROCESS</a><span><img src="./img/arrow.svg"></span></p>
+          <p><a href="">DISCOVER THE PROCESS</a><span><img src="./img/right.svg"></span></p>
         </div>
       </div>
     </div>
@@ -121,7 +99,7 @@
     <div class="gap"></div>
 
     <!-- Title: Dribbble -->
-    <div class="sub-head"><img src="./img/03.svg"><span class="sub-head-title">Dribbble Playground</span></div>
+    
     <div class="gap-after-title"></div>
     <div class="dribbble-button">
       <h2>Dribbble playground</h2>
@@ -132,7 +110,7 @@
     <div class="gap"></div>
 
     <!-- Title: Social Media -->
-    <div class="sub-head2"><span class="sub-head-title2">Ready to work together?</span><img src="./img/04.svg"></div>
+    <!-- <div class="sub-head2"><span class="sub-head-title2">Ready to work together?</span><img src="./img/04.svg"></div> -->
     <div class="gap-after-title"></div>
     <div class="center-connect"><span class="center-connect-text">Let's connect!</span><img src="./img/handshake.svg"></div>
     <div class="gap-after-title"></div>
@@ -141,13 +119,18 @@
       reach me through my email or my other accounts.
     </div>
     <div class="gap-after-title"></div>
-    <div class="social-medias"><span><a href="mailto: petra.stefane@gmail.com" target="_blank">E-mail</a></span><span><a href="https://www.linkedin.com/in/petra-stefanec/" target="_blank">LinkedIn</a></span>
-      <span><a href="https://dribbble.com/petrastefanec" target="_blank">Dribbble</a></span><span><a href="https://www.instagram.com/lallapeachy/" target="_blank">Instagram</a></span>
+    <div id="social-medias">
+      <ul>
+        <li><a href="mailto: petra.stefane@gmail.com" target="_blank">E-mail</a></li>
+        <li><a href="https://www.linkedin.com/in/petra-stefanec/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://dribbble.com/petrastefanec" target="_blank">Dribbble</a></li>
+        <li><a href="https://www.instagram.com/lallapeachy/" target="_blank">Instagram</a></li>
+      </ul>
     </div>
 
     <div class="gap"></div>
   </div>
-  <div class="footer">Copyright 2020.</div>
+<div class="footer">&#169 Copyright 2020. Petra Stefanec.</div>
 </body>
 
 </html>

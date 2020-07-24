@@ -8,8 +8,8 @@ function customMenu() {
   for (var i = 0; i < btns.length; i++) {
     if (pagefile == btns[i].pathname) {
       btns[i].style.color = "#FFFFFF";
-      console.log('btns[i].pathname', btns[i].pathname)
-    }
+    } else if (pagefile.endsWith("/") || pagefile === "") {
+      btns[0].style.color = "#FFFFFF";
     // btns[i].addEventListener("click", function () {
     //   var current = document.getElementsByClassName("active");
     //   current[0].className = current[0].className.replace(" active", "");

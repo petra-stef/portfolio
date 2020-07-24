@@ -10,10 +10,11 @@ function customMenu() {
       btns[i].style.color = "#FFFFFF";
     } else if (pagefile.endsWith("/") || pagefile === "") {
       btns[0].style.color = "#FFFFFF";
-    // btns[i].addEventListener("click", function () {
-    //   var current = document.getElementsByClassName("active");
-    //   current[0].className = current[0].className.replace(" active", "");
-    //   this.className += " active";
-    // });
+      // btns[i].addEventListener("click", function () {
+      //   var current = document.getElementsByClassName("active");
+      //   current[0].className = current[0].className.replace(" active", "");
+      //   this.className += " active";
+      // });
+    }
   }
 }

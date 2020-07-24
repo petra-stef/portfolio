@@ -5,11 +5,11 @@
   <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="petra stefanec portfolio ui/ux designer product designer">
-  <link rel="icon" href="./img/logo_icon.svg" type="image/icon type">
   <link rel="stylesheet" href="style.css">
   <!-- <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <title>Petra Stefanec</title>
+  <script src="./external.js"></script>
   <script src="dist/html5shiv.js"></script>
 </head>
 
@@ -21,10 +21,10 @@
     include('./home_top.php');
     ?>
   </div>
+
   <div class="main">
 
     <!-- Title: Projects -->
-    <div class="gap"></div>
     <div class="gap"></div>
     <!-- 1st Project -->
     <div class="project">
@@ -101,14 +101,11 @@
 
     <!-- Title: Dribbble -->
     
-    <div class="gap-after-title"></div>
     <div class="dribbble-button">
       <h2>Dribbble playground</h2>
       <p>For daily UI challenges and personal projects I’m working on, please check out my Dribbble profile.</p>
       <p><a target="_blank" rel="noopener noreferrer" href="https://dribbble.com/petrastefanec">GO TO DRIBBBLE</a></p>
     </div>
-
-    <div class="gap"></div>
 
     <!-- Title: Social Media -->
     <!-- <div class="sub-head2"><span class="sub-head-title2">Ready to work together?</span><img src="./img/04.svg"></div> -->

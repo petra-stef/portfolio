@@ -1,5 +1,5 @@
 <div class="about_top">
-  <div class="about_top_img"><img class="about_me" src="./img/about_me.svg"></div>
+  <img class="about_me" src="./img/about_me.svg">
   <div class="about_me_content">
     <img class="about_me_hello" src="./img/hello.svg">
     <p class="about_me_content1">

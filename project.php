@@ -302,7 +302,7 @@ Serving size can also be adjusted to fit users’ needs and the ingredients amou
     
 
 <div class="gap"></div>
-<div class="footer">&#169 Copyright 2020. Petra Stefanec.</div>
+<div class="footer">&#169 Copyright 2020. Designed and coded by yours truly. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></div>
 
 </body>
 

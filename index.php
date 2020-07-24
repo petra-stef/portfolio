@@ -76,7 +76,8 @@
           It includes a landing page, blog post,
           and a contact page with a form that validates. </p>
         <div class="project-sub-detail">
-          <p><a href="">DISCOVER THE PROCESS</a><span><img src="./img/right.svg"></span></p>
+          <p><a href="https://unknowneurope.herokuapp.com/" target="_blank" rel="noopener noreferrer">SEE WEBSITE</a><span><img src="./img/right.svg"></span></p>
+          <p><a href="https://github.com/petra-stef/unknown-europe" target="_blank" rel="noopener noreferrer">SEE CODE ON GITHUB</a><span><img src="./img/right.svg"></span></p>
         </div>
       </div>
     </div>
@@ -129,7 +130,7 @@
 
     <div class="gap"></div>
   </div>
-<div class="footer">&#169 Copyright 2020. Petra Stefanec.</div>
+<div class="footer">&#169 Copyright 2020. Designed and coded by yours truly. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></div>
 </body>
 
 </html>

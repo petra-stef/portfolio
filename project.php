@@ -137,7 +137,7 @@ With the help of instructions in the form of both text and photos, users would b
 <h2 id="headlines">Persona</h2>
 <p id="paragraphs">After deciding on the goals and objectives, I created a persona to represent the main target audience.</p>
 
-<div class="persona"><img src="./img/persona.png" alt=""></div>
+<div class="persona"><img src="./img/persona1.png" alt=""></div>
 
 <h2 id="headlines">User flow</h2>
 <p id="paragraphs">Before moving on to wireframes and the prototype, to help with the logic 

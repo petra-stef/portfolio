@@ -111,7 +111,7 @@ html, body {
   transition: color .3s;
 }
 
-.navbar ul li a:hover, .navbar ul li a:focus {
+.navbar ul li a:hover {
   color: #FFFFFF;
 }
 

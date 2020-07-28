@@ -74,10 +74,10 @@
         <h3>FRONT-END</h3>
         <p>A website made with HTML/CSS/Javascript.
           It includes a landing page, blog post,
-          and a contact page with a form that validates. </p>
+          and a contact page with a form that validates. It is responsive for all screen.</p>
         <div class="project-sub-detail">
-          <p><a href="https://unknowneurope.herokuapp.com/" target="_blank" rel="noopener noreferrer">SEE WEBSITE</a><span><img src="./img/right.svg"></span></p>
-          <p><a href="https://github.com/petra-stef/unknown-europe" target="_blank" rel="noopener noreferrer">SEE CODE ON GITHUB</a><span><img src="./img/right.svg"></span></p>
+          <p><a href="https://travelwebsite.herokuapp.com/" target="_blank" rel="noopener noreferrer">SEE WEBSITE</a><span><img src="./img/right.svg"></span></p>
+          <p><a href="https://github.com/petra-stef/travel-website" target="_blank" rel="noopener noreferrer">SEE CODE ON GITHUB</a><span><img src="./img/right.svg"></span></p>
         </div>
       </div>
     </div>

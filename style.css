@@ -438,12 +438,17 @@ h1, h2 {
   font-family: Manrope;
   font-style: normal;
   font-weight: bold;
-  font-size: 112%;
+  font-size: 80%;
   line-height: 172.8%;
   letter-spacing: 0.05em;
   color: #FAF5F2;
   text-align: center;
   padding: 1vh;
+}
+
+.footer a {
+  color: #F0F0F0;
+  text-decoration: none;
 }
 
 /* styling the about me divs */

@@ -1,19 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="robots" content="noindex">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="petra stefanec portfolio ui/ux designer product designer">
-  <link rel="icon" href="./img/logo_icon.svg" type="image/icon type">
-  <link rel="stylesheet" href="style.css">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <title>Petra Stefanec</title>
-  <script src="./external.js"></script>
-  <script src="dist/html5shiv.js"></script>
-</head>
-
+<?php
+include('./header.php'); 
+?>
 <body>
   <div class="home_top_background">
     <div class="home_top_blend"></div>
@@ -24,7 +13,6 @@
   </div>
 
   <div class="main">
-
     <!-- Title: Projects -->
     <div class="gap"></div>
     <!-- 1st Project -->

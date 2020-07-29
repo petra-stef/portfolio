@@ -1,5 +1,5 @@
 
-<div class="navbar">
+<div class="navbar wow fadeInDown">
 
   <p>
     <a href="./index.php" class="logo">petra.</a>

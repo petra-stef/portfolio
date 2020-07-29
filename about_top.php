@@ -1,4 +1,4 @@
-<div class="about_top">
+<div class="about_top wow fadeIn" data-wow-duration="3s">
   <img class="about_me" src="./img/about_me.svg">
   <div class="about_me_content">
     <img class="about_me_hello" src="./img/hello.svg">

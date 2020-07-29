@@ -111,9 +111,9 @@ html, body {
   z-index: 2;
 }
 
-.project-content {
+/* .project-content {
   z-index: 5;
-}
+} */
 
 .navbar ul li a {
   transition: color .3s;
@@ -916,14 +916,14 @@ figcaption {
   margin: 7% 0 3% 0;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media only screen and (min-width: 600px) and (max-width: 1200px) {
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
   .menu {
-    font-size: 1.2em;
+    font-size: .85em;
   }
   .logo {
-    font-size: 2.5em;
+    font-size: 1.8em;
   }
   .home_top_background {
     height: 78vh;
@@ -938,7 +938,30 @@ figcaption {
     height: 78vh;
   }
   .top {
-    transform: translate(0, 32%);
+    transform: translate(0, 30%);
+  }
+  .top-deco {
+    font-size: 12px;
+    transform: translate(0, 35%);
+  }
+  .top-bold {
+    font-size: 24px;
+  }
+  .top-light {
+    font-size: 32px;
+  }
+  .top>div {
+    text-align: center;
+    line-height: 250%;
+  }
+
+  .top-img {
+    transform: translate(0, 100%);
+  }
+
+  .top-img img {
+    width: 2.5%;
+    height: auto;
   }
   .gap {
     height: 5vh;
@@ -966,7 +989,7 @@ figcaption {
     height: auto;
   }
   .about_top_background {
-    height: 62vh;
+    height: 90vh;
     background-color: rgba(252, 215, 213, .74);
   }
   .about_me_content {
@@ -978,9 +1001,6 @@ figcaption {
     justify-content: center;
     margin: 0 2em;
   }
-  /* .about_top div {
-    flex: 1;
-  } */
   .about_me_content>p {
     padding-top: 2%;
     font-family: Manrope;
@@ -999,7 +1019,7 @@ figcaption {
     color: #272B32;
   }
   .about_top img {
-    width: 40%;
+    width: 30%;
     height: auto;
   }
   .sub-head {
@@ -1009,27 +1029,38 @@ figcaption {
     margin-right: 2em;
   }
   .sub-head img {
-    width: 15%;
+    width: 10%;
     height: auto;
   }
   .sub-head2 img {
-    width: 15%;
+    width: 10%;
     height: auto;
   }
+  .sub-head-title {
+    font-size: 112%;
+    top: -1vh;
+    left: 1vw;
+  }
+  .sub-head-title2 {
+    font-size: 112%;
+  }
   .gap-after-title {
-    height: 1vh;
+    height: .5vh;
   }
   .resume-link {
     margin: 2em 8em;
   }
+
+  .resume-link h2 {
+    font-size: 90%;
+  }
   .about-me-section {
     display: flex;
     justify-content: space-evenly;
-    /* margin: .2em; */
-    flex-wrap: wrap;
+    margin: 1.5em .5em 2em .5em;
   }
   .about-me, .about-me2 {
-    width: 100%;
+    width: 40%;
     height: auto;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
@@ -1038,29 +1069,52 @@ figcaption {
     /* flex: 1; */
   }
   .cards {
-    margin: 4vh 10%;
-    display: block;
-    min-width: 100%;
-    /* justify-content: space-evenly;
-    flex-wrap: wrap; */
+    margin: 0 1%;
+    min-width: 25%;
+    justify-content: space-evenly;
     display: flex;
-    flex-direction: column;
   }
   .card {
-    background-color: white;
-    border-radius: 25px;
-    font-family: Manrope;
-    font-size: 112%;
+    font-size: 80%;
     line-height: 172.8%;
-    padding: 5%;
+    padding: 2%;
     margin-top: 5%;
-    min-width: 70%;
+    /* min-width: 70%; */
     /* display: grid;
     text-align: center;
     max-width: 50%;
     height: auto; */
     box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
   }
+
+  .about-me h3, .about-me2 h3 {
+    font-size: 112%;
+  }
+  
+  .about-me ul li, .about-me2 ul li {
+    font-size: 80%;
+  }
+
+  .about-me li:before {
+    margin-left: -20px;
+    margin-right: 5px;
+  }
+  
+  .about-me2 li:before {
+    content: '\01F31F';
+    margin-left: -20px;
+    margin-right: 5px;
+  }
+
+  .button-1 {
+    padding: .5em 1.5em;
+    margin: 2em;
+  }
+
+  .resume-link a {
+    font-size: 90%;
+  }
+
   .hero-text-inner1 h2 {
     font-family: Manrope;
     font-style: normal;
@@ -1146,11 +1200,9 @@ figcaption {
     margin: 1% 0;
     line-height: 150%;
   }
-
   #subgoals ul li:before {
     margin-right: 5px;
   }
-
   #improved ul li {
     font-family: Manrope;
     font-size: 90%;
@@ -1158,23 +1210,19 @@ figcaption {
     margin: 1% 0;
     line-height: 180%;
   }
-  
   #improved li:before {
     content: '\01F536';
     margin-left: -20px;
     margin-right: 5px;
   }
-  
   #improved {
     width: 70%;
     margin: 0 auto;
   }
-
   #improved2 {
     width: 70%;
     margin: 2% 10%
   }
-  
   #improved2 ul li {
     font-family: Manrope;
     font-size: 90%;
@@ -1182,20 +1230,17 @@ figcaption {
     margin: 1% 0;
     line-height: 180%;
   }
-  
   #improved2 li:before {
     content: '\01F536';
     margin-left: -20px;
     margin-right: 5px;
   }
-
   .other-projects li {
     list-style-type: none;
     display: inline-block;
     margin-right: 2em;
     margin-bottom: 1em;
   }
-
   #screen-info {
     font-family: Manrope;
     width: 50%;
@@ -1203,32 +1248,113 @@ figcaption {
     font-size: 112%;
     /* line-height: 180%; */
   }
-  
   #screen-description {
     font-size: 120%;
   }
-  
   #number {
     color: #FAF5F2;
     font-family: Corben;
     font-size: 180%;
     text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
   }
-
   #screen-text {
     font-size: 80%;
   }
-
   #prototypes {
     margin: 5% 0;
   }
-
   #prototypes img {
     width: 28%;
     height: auto;
   }
-
   #headline-final {
     font-size: 125%;
   }
+
+  .dribbble-button {
+    margin: 10% auto;
+    padding: 3%;
+    width: 70%;
+  }
+  
+  .dribbble-button>h2 {
+    font-size: 112%;
+    line-height: 200%;
+  }
+  
+  .dribbble-button>p {
+    font-size: 80%;
+    line-height: 200%;
+  }
+  
+  .dribbble-button>p>a {
+    font-size: 80%;
+    line-height: 200%;
+  }
+
+
+  
+  .center-connect-text {
+    font-size: 120%;
+    line-height: 172.8%;
+    letter-spacing: 0.05em;
+    color: #272B32;
+    padding-right: 1vw;
+  }
+  
+  .connect-description {
+    text-align: center;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90%;
+    line-height: 172.8%;
+    letter-spacing: 0.05em;
+    color: #272B32;
+    margin: 0 10%;
+  }
+
+  #social-medias a {
+    font-size: 90%;
+  }
+  #social-medias ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .center-connect img {
+    width: 3%;
+    height: auto;
+  }
+  
 }
+
+/* @media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .menu {
+    font-size: 1em;
+  }
+  .logo {
+    font-size: 2em;
+  }
+  .home_top_background {
+    height: 40vh; */
+    /* background: linear-gradient( rgba(245, 205, 195, 1), rgba(245, 205, 195, 1)), url('./img/home_background.jpg') no-repeat 50% 30%;
+    background-blend-mode: hard-light;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+  /* }
+  .home_top_blend {
+    height: 40vh;
+  }
+  .top {
+    transform: translate(0, 50%);
+  }
+
+  .about_top_background {
+    height: 45vh;
+    background-color: rgba(252, 215, 213, .74);
+  }
+
+} */

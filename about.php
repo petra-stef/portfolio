@@ -40,7 +40,7 @@ include('./header.php');
     <div class="gap"></div>
 
     <div class="sub-head2"><span class="sub-head-title2">Fun facts about me</span><img src="./img/02.svg"></div>
-    <div class="gap-after-title"></div>
+    <!-- <div class="gap-after-title"></div> -->
 
   <div class="about-me-section">
     <div class="about-me"><h3>Things that excite me</h3>
@@ -60,7 +60,7 @@ include('./header.php');
         <li>make jewelry</li>
         <li>watch Gilmore Girls</li>
         <li>do puzzles</li>
-        <li>cook/bake/</li>
+        <li>cook/bake</li>
         <li>look at animal videos on Instagram</li>
       </ul>
     </div>

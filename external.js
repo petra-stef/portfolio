@@ -9,7 +9,7 @@ function customMenu() {
     if (pagefile == btns[i].pathname) {
       btns[i].style.color = "#FFFFFF";
     } else if (pagefile.endsWith("/")) {
-      btns[0].style.color = "#FFFFFF";
+      btns[2].style.color = "#FFFFFF";
       // btns[i].addEventListener("click", function () {
       //   var current = document.getElementsByClassName("active");
       //   current[0].className = current[0].className.replace(" active", "");

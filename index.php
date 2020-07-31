@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-include('./header.php'); 
+include('./header.php');
 ?>
-<body>
-  <div class="home_top_background">
-    <div class="home_top_blend"></div>
-    <?php
-    include('./nav/navbar.php');
-    include('./home_top.php');
-    ?>
-  </div>
 
+<body>
+  <?php
+  include('./nav/navbar.php');
+  include('./home_top.php');
+  ?>
   <div class="main">
-    <!-- Title: Projects -->
-    <div class="gap"></div>
-    <!-- 1st Project -->
     <div class="project">
       <img class="project-img" src="./img/project1.png">
       <div class="project-header">
@@ -28,13 +22,12 @@ include('./header.php');
           whose main goal is to make the cooking process easier for beginners,
           reduce food waste and help users save time and money.</p>
         <div class="project-sub-detail">
-          <p><a href="project.php">SEE CASE STUDY</a><span><img src="./img/right.svg"></span></p>
+          <a href="project.php">SEE CASE STUDY</a><span><img src="./img/right.svg"></span>
         </div>
       </div>
     </div>
-    <div class="gap"></div>
 
-    <!-- 2nd Project -->
+
     <div class="project">
       <img class="project-img" src="./img/project2.png">
       <div class="project-header">
@@ -46,13 +39,11 @@ include('./header.php');
           in your home environment based on factors such as light condition,
           maintenance level and light.</p>
         <div class="project-sub-detail">
-          <p><a href="https://www.behance.net/gallery/95451487/Terra-Plant-Recommendation-App" target="_blank" rel="noopener noreferrer">SEE CASE STUDY</a><span><img src="./img/right.svg"></span></p>
+          <a href="https://www.behance.net/gallery/95451487/Terra-Plant-Recommendation-App" target="_blank" rel="noopener noreferrer">SEE CASE STUDY</a><span><img src="./img/right.svg"></span>
         </div>
       </div>
     </div>
-    <div class="gap"></div>
 
-    <!-- 3rd Project -->
     <div class="project">
       <img class="project-img" src="./img/unknowneurope2.gif">
       <div class="project-header">
@@ -65,14 +56,15 @@ include('./header.php');
           and a contact page with a form that validates. It is responsive for all screens.
           Check the github for the list of HTML and CSS features used.</p>
         <div class="project-sub-detail">
-          <p><a href="https://travelwebsite.herokuapp.com/" target="_blank" rel="noopener noreferrer">SEE WEBSITE</a><span><img src="./img/right.svg"></span></p>
-          <p><a href="https://github.com/petra-stef/travel-website" target="_blank" rel="noopener noreferrer">SEE CODE ON GITHUB</a><span><img src="./img/right.svg"></span></p>
+          <a href="https://travelwebsite.herokuapp.com/" target="_blank" rel="noopener noreferrer">SEE WEBSITE</a><span><img src="./img/right.svg"></span>
         </div>
+        <div class="project-sub-detail">
+          <a href="https://github.com/petra-stef/travel-website" target="_blank" rel="noopener noreferrer">SEE CODE ON GITHUB</a><span><img src="./img/right.svg"></span>
+        </div>
+
       </div>
     </div>
-    <div class="gap"></div>
 
-    <!-- 4th Project -->
     <div class="project">
       <img class="project-img" src="./img/project4.png">
       <div class="project-header">
@@ -84,42 +76,32 @@ include('./header.php');
           as capstone project. I was in charge of working with
           the client to build the website from scratch to give the NPO an online presence. </p>
         <div class="project-sub-detail">
-          <p><a href="">DISCOVER THE PROCESS</a><span><img src="./img/lock.svg"></span></p>
+          <a href="">DISCOVER THE PROCESS</a><span><img src="./img/lock.svg"></span>
         </div>
       </div>
     </div>
-    <div class="gap"></div>
 
-    <!-- Title: Dribbble -->
-    
     <div class="dribbble-button">
       <h2>Dribbble playground</h2>
       <p>For daily UI challenges and personal projects I’m working on, please check out my Dribbble profile.</p>
-      <p><a target="_blank" rel="noopener noreferrer" href="https://dribbble.com/petrastefanec">GO TO DRIBBBLE</a></p>
+      <a target="_blank" rel="noopener noreferrer" href="https://dribbble.com/petrastefanec">GO TO DRIBBBLE</a>
     </div>
 
-    <!-- Title: Social Media -->
-    <!-- <div class="sub-head2"><span class="sub-head-title2">Ready to work together?</span><img src="./img/04.svg"></div> -->
-    <div class="gap-after-title"></div>
+
     <div class="center-connect"><span class="center-connect-text">Let's connect!</span><img src="./img/handshake.svg"></div>
-    <div class="gap-after-title"></div>
     <div class="connect-description">If you would like to get in touch with me for any work inquiries,
       project questions or just chatting about dogs and alpacas,
       reach me through my email or my other accounts.
     </div>
-    <div class="gap-after-title"></div>
     <div id="social-medias">
-      <ul>
-        <li><a href="mailto: petra.stefane@gmail.com" target="_blank">E-mail</a></li>
-        <li><a href="https://www.linkedin.com/in/petra-stefanec/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://dribbble.com/petrastefanec" target="_blank">Dribbble</a></li>
-        <li><a href="https://www.instagram.com/lallapeachy/" target="_blank">Instagram</a></li>
-      </ul>
+      <a href="mailto: petra.stefane@gmail.com" target="_blank">E-mail</a>
+      <a href="https://www.linkedin.com/in/petra-stefanec/" target="_blank">LinkedIn</a>
+      <a href="https://dribbble.com/petrastefanec" target="_blank">Dribbble</a>
+      <a href="https://www.instagram.com/lallapeachy/" target="_blank">Instagram</a>
     </div>
 
-    <div class="gap"></div>
   </div>
-<div class="footer">&#169 Copyright 2020. Designed and coded by yours truly. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></div>
+  <div class="footer">&#169 Copyright 2020. Designed and coded by Petra. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></div>
 </body>
 
 </html>

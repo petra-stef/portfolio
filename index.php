@@ -10,6 +10,8 @@ include('./header.php');
   include('./home_top.php');
   ?>
   <div class="main">
+    <!-- adding back to top button -->
+  <div onclick="topFunction()" id="back-to-top" title="Go to top"><img src="img/arrow-up.svg" alt=""></div>
     <div class="project">
       <img class="project-img wow fadeInLeft" data-wow-duration="1s" src="./img/project1.png">
       <div class="project-header wow fadeInRight" data-wow-duration="1s">
@@ -103,5 +105,5 @@ include('./header.php');
   </div>
   <div class="footer"><p>&#169 Copyright 2020. Designed and coded by Petra. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></p></div>
 </body>
-
+<script src="scroll.js"></script>
 </html>

@@ -50,7 +50,7 @@ h1, h2 {
   font-family: Manrope;
   font-style: normal;
   font-weight: 600;
-  font-size: 1vw;
+  font-size: 1.1vw;
   letter-spacing: .1vw;
   color: #272B32;
   padding-top: 3vh;
@@ -113,7 +113,7 @@ h1, h2 {
 /* numbers with title */
 
 .sub-head img, .sub-head2 img {
-  width: 10vw;
+  width: 8vw;
   height: auto;
 }
 
@@ -897,34 +897,26 @@ figcaption {
   margin: 7% 0 3% 0;
 }
 
-/* @media only screen and (min-width: 600px) and (max-width: 1024px) {
-  .menu {
-    font-size: 1em;
-  }
-  .logo {
-    font-size: 2em;
-  }
-  .home_top_background {
-    height: 40vh; */
+/* back to top icon */
 
-/* background: linear-gradient( rgba(245, 205, 195, 1), rgba(245, 205, 195, 1)), url('./img/home_background.jpg') no-repeat 50% 30%;
-    background-blend-mode: hard-light;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-
-/* }
-  .home_top_blend {
-    height: 40vh;
+#back-to-top {
+    display: none;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #ffb0b05b; /* Set a background color */
+    rgb(197, 197, 197); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    transition: all .4s;
   }
-  .top {
-    transform: translate(0, 50%);
+  
+  #back-to-top:hover {
+    background-color: #FFB0B0; /* Add a dark-grey background on hover */
   }
-
-  .about_top_background {
-    height: 45vh;
-    background-color: rgba(252, 215, 213, .74);
-  }
-
-} */

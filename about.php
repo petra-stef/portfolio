@@ -12,6 +12,9 @@ include('./header.php');
     ?>
   </div>
 
+  <!-- adding back to top button -->
+  <div onclick="topFunction()" id="back-to-top" title="Go to top"><img src="img/arrow-up.svg" alt=""></div>
+
   <!-- Title: Skillset -->
   <div class="sub-head wow fadeInLeft"><img src="./img/01.svg"><span class="sub-head-title">My Skillset</span></div>
   <div class="cards wow fadeIn">
@@ -82,5 +85,6 @@ include('./header.php');
   <div class="footer"><p>&#169 Copyright 2020. Designed and coded by Petra. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></p></div>
 
 </body>
+<script src="scroll.js"></script>
 
 </html>

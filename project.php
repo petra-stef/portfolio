@@ -11,6 +11,8 @@ include('./header.php');
     include('./project_top.php');
     ?>
   </div>
+<!-- adding back to top button -->
+<div onclick="topFunction()" id="back-to-top" title="Go to top"><img src="img/arrow-up.svg" alt=""></div>
 
   <table class="role-table wow fadeIn">
     <tr>
@@ -294,5 +296,5 @@ Serving size can also be adjusted to fit users’ needs and the ingredients amou
 <div class="footer"><p>&#169 Copyright 2020. Designed and coded by Petra. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></p></div>
 
 </body>
-
+<script src="scroll.js"></script>
 </html>

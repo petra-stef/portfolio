@@ -13,8 +13,8 @@ include('./header.php');
   </div>
 
   <!-- Title: Skillset -->
-  <div class="sub-head"><img src="./img/01.svg"><span class="sub-head-title">My Skillset</span></div>
-  <div class="cards">
+  <div class="sub-head wow fadeInLeft"><img src="./img/01.svg"><span class="sub-head-title">My Skillset</span></div>
+  <div class="cards wow fadeIn">
     <div class="card">
       <h2>Design (UI/UX)</h2>
       <p>Designing user interfaces or websites is my main area of interest.
@@ -36,10 +36,10 @@ include('./header.php');
     </div>
   </div>
 
-  <div class="sub-head2"><span class="sub-head-title2">Fun facts about me</span><img src="./img/02.svg"></div>
+  <div class="sub-head2 wow fadeInRight"><span class="sub-head-title2">Fun facts about me</span><img src="./img/02.svg"></div>
 
   <div class="about-me-section">
-    <div class="about-me">
+    <div class="about-me wow fadeIn">
       <h3>Things that excite me</h3>
       <ul>
         <li>typography/print</li>
@@ -51,7 +51,7 @@ include('./header.php');
       </ul>
     </div>
 
-    <div class="about-me2">
+    <div class="about-me2 wow fadeIn">
       <h3>Things I do in my free time</h3>
       <ul>
         <li>illustrate/draw flowers</li>
@@ -64,13 +64,13 @@ include('./header.php');
     </div>
   </div>
 
-  <div class="sub-head"><img src="./img/03.svg"><span class="sub-head-title">Ready to work together?</span></div>
-  <div class="resume-link">
+  <div class="sub-head wow fadeInLeft"><img src="./img/03.svg"><span class="sub-head-title">Ready to work together?</span></div>
+  <div class="resume-link wow fadeIn">
     <h2>Check out my resume here.</h2>
-    <a href="https://drive.google.com/file/d/1m35qrlB6Ysyu6bJe5Ff3XA4HOzcDdA32/view?usp=sharing" class="button-1" target="_blank">RESUME</a>
+    <a href="https://drive.google.com/file/d/1m35qrlB6Ysyu6bJe5Ff3XA4HOzcDdA32/view?usp=sharing" class="button-1 wow pulse" data-wow-iteration="100" data-wow-duration="2s" target="_blank">RESUME</a>
   </div>
 
-  <div id="social-medias">
+  <div id="social-medias" class="wow fadeIn">
     <a href="mailto: petra.stefane@gmail.com" target="_blank">E-mail</a>
     <a href="https://www.linkedin.com/in/petra-stefanec/" target="_blank">LinkedIn</a>
     <a href="https://dribbble.com/petrastefanec" target="_blank">Dribbble</a>
@@ -79,7 +79,7 @@ include('./header.php');
 
   <div class="gap-before-footer"></div>
 
-  <div class="footer">&#169 Copyright 2020. Designed and coded by Petra. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></div>
+  <div class="footer"><p>&#169 Copyright 2020. Designed and coded by Petra. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></p></div>
 
 </body>
 

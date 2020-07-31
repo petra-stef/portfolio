@@ -12,8 +12,6 @@ include('./header.php');
     ?>
 </div>
 
-<div class="gap"></div>
-
 <table class="role-table">
   <tr>
     <th>My role</th>
@@ -40,24 +38,24 @@ Also, a lot of food is wasted or thrown away because people tend to buy grocerie
   <div class="interviews">
       <div>
         <h3>Which part of the cooking process do you find the most frustrating?</h3>
-        <p id="paragraphs">“... Planning for meals and looking for recipes usually takes the most time because sometimes
+        <p id="paragraphs2">“... Planning for meals and looking for recipes usually takes the most time because sometimes
       I don’t have some of the ingredients in my pantry. I also don’t like to spend too much time on cutting veggies and thawing meat. “</p>
       </div>
       <div>
         <h3>What would you like to change about your eating habits?</h3>
-        <p id="paragraphs">“... I would like to not skip breakfast in the morning, and would like to start prepping my meals 
+        <p id="paragraphs2">“... I would like to not skip breakfast in the morning, and would like to start prepping my meals 
           so that I don’t spend too much time on cooking during the week. 
           I would also like to include more home-cooked meals. “</p>
       </div>
       <div>
         <h3>Do you plan your grocery shopping in advance?</h3>
-        <p id="paragraphs">“... Usually I have a general idea what I want to buy, like milk, coffee or other things I ran out of. When it comes to fruits,
+        <p id="paragraphs2">“... Usually I have a general idea what I want to buy, like milk, coffee or other things I ran out of. When it comes to fruits,
           veggies and fresh food, usually I don’t know what to buy because I don’t know
             what to use those ingredients for. “</p>
       </div>
       <div>
         <h3>How experienced are you at cooking?</h3>
-        <p id="paragraphs">“... I don’t cook much other than an occasional bacon and eggs breakfast and toast.
+        <p id="paragraphs2">“... I don’t cook much other than an occasional bacon and eggs breakfast and toast.
           Usually I don’t have time to cook, or I’m too tired or would just like to spend my time doing something else. “</p>
       </div>
     </div>
@@ -291,9 +289,7 @@ Serving size can also be adjusted to fit users’ needs and the ingredients amou
   <li><a href="">Travel blog (Front-end)</a></li>
 </ul>
     
-
-<div class="gap"></div>
-<div class="footer">&#169 Copyright 2020. Designed and coded by yours truly. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></div>
+<div class="footer">&#169 Copyright 2020. Designed and coded by Petra. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></div>
 
 </body>
 

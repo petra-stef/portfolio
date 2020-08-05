@@ -18,7 +18,7 @@ h1, h2 {
 
 .navbar {
   padding: 3vh 5vw;
-  background-color: rgba(252, 215, 213, .74);
+  background-color: rgba(252, 215, 213, 1);
   height: 5vh;
 }
 
@@ -271,7 +271,7 @@ h1, h2 {
 /* top */
 
 .top {
-  background-color: rgba(252, 215, 213, .74);
+  background-color: rgba(252, 215, 213, 1);
   height: 80vh;
 }
 
@@ -567,30 +567,24 @@ h1, h2 {
   color: #FAF5F2;
 }
 
-.project-hero {
+.hero-screens {
   background-color: rgba(252, 215, 213, 1);
-  height: 100vh;
-  position: relative;
-}
-
-.project-hero img {
-  padding-top: 3vh;
   width: 100%;
-  height: auto;
+  bottom: 5%;
 }
 
 .hero-text-inner1 {
   position: absolute;
-  top: 37%;
-  left: 10%;
-  width: 25%;
+  top: 35vh;
+  left: 10vw;
+  width: 25vw;
 }
 
 .hero-text-inner2 {
   position: absolute;
-  top: 60%;
-  left: 10%;
-  width: 25%;
+  top: 55vh;
+  left: 10vw;
+  width: 25vw;
 }
 
 .role-table {

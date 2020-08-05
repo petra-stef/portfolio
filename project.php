@@ -5,14 +5,12 @@ include('./header.php');
 ?>
 
 <body>
-  <div class="project-hero">
-    <?php
-    include('./nav/navbar.php');
-    include('./project_top.php');
-    ?>
-  </div>
-<!-- adding back to top button -->
-<div onclick="topFunction()" id="back-to-top" title="Go to top"><img src="img/arrow-up.svg" alt=""></div>
+  <?php
+  include('./nav/navbar.php');
+  include('./project_top.php');
+  ?>
+  <!-- adding back to top button -->
+  <div onclick="topFunction()" id="back-to-top" title="Go to top"><img src="img/arrow-up.svg" alt=""></div>
 
   <table class="role-table wow fadeIn">
     <tr>
@@ -28,7 +26,7 @@ include('./header.php');
   </table>
 
   <h2 id="headlines">Project timeline</h2>
-  <div class="timeline wow fadeIn"><img  src="./img/timeline.png" alt=""></div>
+  <div class="timeline wow fadeIn"><img src="./img/timeline.png" alt=""></div>
 
   <h2 id="headlines">Why is cooking at home important? What is the problem?</h2>
   <p id="paragraphs" class="wow fadeIn">Nowadays people are eating out more or buying processed or frozen foods because they think cooking is too time-consuming and requires a lot of skills.
@@ -152,149 +150,152 @@ include('./header.php');
     This valuable feedback enabled me to iterate on the design for the high-fidelity prototype.
   </p>
   <div id="low-fi">
-<img class="low-fi wow fadeIn" src="./img/low-fi.png" alt="">
-</div>
-
-<h2 id="headlines">User feedback</h2>
-<p id="paragraphs">I have presented these low-fidelity prototypes to my classmates and other potential users
-  to improve the design before making the "final" design. 
-  Naturally, the main rule of UI and UX design is iterate, iterate and iterate again so 
-  these high-fidelity wireframes have to be constantly tested and revised.
-</p>
-<p id="paragraphs">This is the initial user feedback I received and used to make improvements.
-</p>
-
-<div class="feedback wow fadeIn"><img src="./img/feedback.png" alt=""></div>
-
-<h2 id="headlines">High-fidelity prototypes</h2>
-<p id="paragraphs">Things that were improved using the feedback provided in classroom.
-</p>
-<div id="improved">
-<ul>
-  <li>Navigation changed to be clearer.</li>
-  <li>Images on the homepage enlarged so that they take up the whole screen.</li>
-  <li>Tab navigations inside recipe details page was made more visible.</li>
-  <li>Added the sort by option and simplified the filtering page.</li>
-</ul>
-</div>
-  
-<div id="prototypes">
-  <div id="screen-info" class="wow fadeInLeft">
-  <h2 id="number">01</h2>
-  <h3 id="screen-description">Homepage</h3>
-  <p id="screen-text">Homepage shows categories such as recommended recipes based on things you searched for,
-top and trending recipes, or recipes from categories you recently searched for such as one-pot meals etc.</p>
+    <img class="low-fi wow fadeIn" src="./img/low-fi.png" alt="">
   </div>
-  <img class="wow fadeInRight" src="./img/homepage1.gif" alt="">
-</div>
 
-<div id="prototypes">
-  <div id="screen-info" class="wow fadeInLeft">
-  <h2 id="number">02</h2>
-  <h3 id="screen-description">Search function</h3>
-  <p id="screen-text">Search page gives the user two options. One is to scroll down and see some of the featured 
-    categories, and the other one is to enter a keyword and search according to that. 
-    Before clicking search, users can see suggested recipes and keywords.</p>
+  <h2 id="headlines">User feedback</h2>
+  <p id="paragraphs">I have presented these low-fidelity prototypes to my classmates and other potential users
+    to improve the design before making the "final" design.
+    Naturally, the main rule of UI and UX design is iterate, iterate and iterate again so
+    these high-fidelity wireframes have to be constantly tested and revised.
+  </p>
+  <p id="paragraphs">This is the initial user feedback I received and used to make improvements.
+  </p>
+
+  <div class="feedback wow fadeIn"><img src="./img/feedback.png" alt=""></div>
+
+  <h2 id="headlines">High-fidelity prototypes</h2>
+  <p id="paragraphs">Things that were improved using the feedback provided in classroom.
+  </p>
+  <div id="improved">
+    <ul>
+      <li>Navigation changed to be clearer.</li>
+      <li>Images on the homepage enlarged so that they take up the whole screen.</li>
+      <li>Tab navigations inside recipe details page was made more visible.</li>
+      <li>Added the sort by option and simplified the filtering page.</li>
+    </ul>
   </div>
-  <img class="wow fadeInRight" src="./img/search.gif" alt="">
-</div>
 
-<div id="prototypes">
-  <div id="screen-info" class="wow fadeInLeft">
-  <h2 id="number">03</h2>
-  <h3 id="screen-description">Filter and sort</h3>
-  <p id="screen-text">Results can be filtered according to difficulty level, cooking time and special dietary needs. They can also be sorted according to difficulty,
-      time and number of ingredients. This enables uses to quickly filter to recipes and spend less time searching.</p>
+  <div id="prototypes">
+    <div id="screen-info" class="wow fadeInLeft">
+      <h2 id="number">01</h2>
+      <h3 id="screen-description">Homepage</h3>
+      <p id="screen-text">Homepage shows categories such as recommended recipes based on things you searched for,
+        top and trending recipes, or recipes from categories you recently searched for such as one-pot meals etc.</p>
+    </div>
+    <img class="wow fadeInRight" src="./img/homepage1.gif" alt="">
   </div>
-  <img class="wow fadeInRight" src="./img/filter.gif" alt="">
-</div>
 
-<div id="prototypes">
-  <div id="screen-info" class="wow fadeInLeft">
-  <h2 id="number">04</h2>
-  <h3 id="screen-description">Recipe details page</h3>
-  <p id="screen-text">On the recipe details page, users can see recipe’s rating, author, cooking time, difficulty and tags. They can also like the recipe to save it for later. Furthermore, they can see ingredients, directions and reviews.
-Serving size can also be adjusted to fit users’ needs and the ingredients amounts will get increased or decreased accordingly.</p>
+  <div id="prototypes">
+    <div id="screen-info" class="wow fadeInLeft">
+      <h2 id="number">02</h2>
+      <h3 id="screen-description">Search function</h3>
+      <p id="screen-text">Search page gives the user two options. One is to scroll down and see some of the featured
+        categories, and the other one is to enter a keyword and search according to that.
+        Before clicking search, users can see suggested recipes and keywords.</p>
+    </div>
+    <img class="wow fadeInRight" src="./img/search.gif" alt="">
   </div>
-  <img class="wow fadeInRight" src="./img/recipedetailspage.gif" alt="">
-</div>
 
-<div id="prototypes">
-  <div id="screen-info" class="wow fadeInLeft">
-  <h2 id="number">05</h2>
-  <h3 id="screen-description">Making a recipe</h3>
-  <p id="screen-text">From the recipe details page, users can access the recipe making mode. 
-    Before they start they will get a prompt window asking them whether they want to enable 
-    anti-lock screen and voice control. These features make it easier to follow a recipe without touching the 
-    phone all the time. Next, they can follow instructions step-by-step. In the end they’ll be asked to leave a review, 
-    rate the recipe or upload a photo.</p>
+  <div id="prototypes">
+    <div id="screen-info" class="wow fadeInLeft">
+      <h2 id="number">03</h2>
+      <h3 id="screen-description">Filter and sort</h3>
+      <p id="screen-text">Results can be filtered according to difficulty level, cooking time and special dietary needs. They can also be sorted according to difficulty,
+        time and number of ingredients. This enables uses to quickly filter to recipes and spend less time searching.</p>
+    </div>
+    <img class="wow fadeInRight" src="./img/filter.gif" alt="">
   </div>
-  <img class="wow fadeInRight" src="./img/makingrecipe.gif" alt="">
-</div>
 
-<div id="prototypes">
-  <div id="screen-info" class="wow fadeInLeft">
-  <h2 id="number">06</h2>
-  <h3 id="screen-description">Grocery list</h3>
-  <p id="screen-text">After looking at the ingredients list, if a user realizes they are missing an ingredient they can add it to the grocery list to buy it later.
-     From the grocery list they can delete ingredients or access the recipe again.</p>
+  <div id="prototypes">
+    <div id="screen-info" class="wow fadeInLeft">
+      <h2 id="number">04</h2>
+      <h3 id="screen-description">Recipe details page</h3>
+      <p id="screen-text">On the recipe details page, users can see recipe’s rating, author, cooking time, difficulty and tags. They can also like the recipe to save it for later. Furthermore, they can see ingredients, directions and reviews.
+        Serving size can also be adjusted to fit users’ needs and the ingredients amounts will get increased or decreased accordingly.</p>
+    </div>
+    <img class="wow fadeInRight" src="./img/recipedetailspage.gif" alt="">
   </div>
-  <img class="wow fadeInRight" src="./img/grocery.gif" alt="">
-</div>
 
-<div id="prototypes">
-  <div id="screen-info" class="wow fadeInLeft">
-  <h2 id="number">07</h2>
-  <h3 id="screen-description">Clean your fridge</h3>
-  <p id="screen-text">Users can select the ingredients they already have in the fridge and search
-     for recipes that have same ingredients to use them up instead of throwing them away.</p>
+  <div id="prototypes">
+    <div id="screen-info" class="wow fadeInLeft">
+      <h2 id="number">05</h2>
+      <h3 id="screen-description">Making a recipe</h3>
+      <p id="screen-text">From the recipe details page, users can access the recipe making mode.
+        Before they start they will get a prompt window asking them whether they want to enable
+        anti-lock screen and voice control. These features make it easier to follow a recipe without touching the
+        phone all the time. Next, they can follow instructions step-by-step. In the end they’ll be asked to leave a review,
+        rate the recipe or upload a photo.</p>
+    </div>
+    <img class="wow fadeInRight" src="./img/makingrecipe.gif" alt="">
   </div>
-  <img class="wow fadeInRight" src="./img/cleanfridge.gif" alt="">
-</div>
 
-<div id="prototypes">
-  <div id="screen-info" class="wow fadeInLeft">
-  <h2 id="number">08</h2>
-  <h3 id="screen-description">Profile page</h3>
-  <p id="screen-text">Users can like a recipe to save it for later. Saved recipes appear on the users profile page, 
-    along with the recipes users published or recipes they tried making before.</p>
+  <div id="prototypes">
+    <div id="screen-info" class="wow fadeInLeft">
+      <h2 id="number">06</h2>
+      <h3 id="screen-description">Grocery list</h3>
+      <p id="screen-text">After looking at the ingredients list, if a user realizes they are missing an ingredient they can add it to the grocery list to buy it later.
+        From the grocery list they can delete ingredients or access the recipe again.</p>
+    </div>
+    <img class="wow fadeInRight" src="./img/grocery.gif" alt="">
   </div>
-  <img class="wow fadeInRight" src="./img/profile.gif" alt="">
-</div>
 
-<h2 id="headlines">Takeaways</h2>
+  <div id="prototypes">
+    <div id="screen-info" class="wow fadeInLeft">
+      <h2 id="number">07</h2>
+      <h3 id="screen-description">Clean your fridge</h3>
+      <p id="screen-text">Users can select the ingredients they already have in the fridge and search
+        for recipes that have same ingredients to use them up instead of throwing them away.</p>
+    </div>
+    <img class="wow fadeInRight" src="./img/cleanfridge.gif" alt="">
+  </div>
 
-<h3 class="improved2-text">What did I learn?</h3>
-<div id="improved2" class="wow fadeIn">
-<ul>
-  <li>Iterate, iterate and iterate. It is important to keep testing the design and making changes accordingly. 
-    Even after the product is launched, the team should keep testing it and improving it.</li>
-  <li>Don’t make assumptions. I made the low-fidelity wireframes based on my idea of what users might like,
-     but after getting feedback from classmates it turns out that they might prefer some other solution.</li>
-  <li>Ask for advice. If you get stuck on any step of the process, 
-    it is always helpful to ask for second opinion either from colleagues or from a mentor.</li>
-</ul>
-</div>
+  <div id="prototypes">
+    <div id="screen-info" class="wow fadeInLeft">
+      <h2 id="number">08</h2>
+      <h3 id="screen-description">Profile page</h3>
+      <p id="screen-text">Users can like a recipe to save it for later. Saved recipes appear on the users profile page,
+        along with the recipes users published or recipes they tried making before.</p>
+    </div>
+    <img class="wow fadeInRight" src="./img/profile.gif" alt="">
+  </div>
 
-<h3 class="improved2-text">What are the next steps?</h3>
+  <h2 id="headlines">Takeaways</h2>
 
-<div id="improved2" class="wow fadeIn">
-<ul>
-  <li>More user testing is needed to improve the design, 
-    make it more beginner-friendly and see how it can attract more users with new functions.</li>
-  <li>Develop the prototype further and include more functions. </li>
-  <li>Work more on branding and establish business goals.</li>
-</ul>
-</div>
+  <h3 class="improved2-text">What did I learn?</h3>
+  <div id="improved2" class="wow fadeIn">
+    <ul>
+      <li>Iterate, iterate and iterate. It is important to keep testing the design and making changes accordingly.
+        Even after the product is launched, the team should keep testing it and improving it.</li>
+      <li>Don’t make assumptions. I made the low-fidelity wireframes based on my idea of what users might like,
+        but after getting feedback from classmates it turns out that they might prefer some other solution.</li>
+      <li>Ask for advice. If you get stuck on any step of the process,
+        it is always helpful to ask for second opinion either from colleagues or from a mentor.</li>
+    </ul>
+  </div>
 
-<h2 id="headline-final">See other projects</h2>
-<ul class="other-projects wow bounce" data-wow-iteration="5" data-wow-duration="1.4s">
-  <li><a href="https://www.behance.net/gallery/95451487/Terra-Plant-Recommendation-App" target="_blank" rel="noopener noreferrer">Plant care app (UI/UX)</a></li>
-  <li><a href="https://travelwebsite.herokuapp.com/" target="_blank" rel="noopener noreferrer">Travel blog (Front-end)</a></li>
-</ul>
-      
-<div class="footer"><p>&#169 Copyright 2020. Designed and coded by Petra. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></p></div>
+  <h3 class="improved2-text">What are the next steps?</h3>
+
+  <div id="improved2" class="wow fadeIn">
+    <ul>
+      <li>More user testing is needed to improve the design,
+        make it more beginner-friendly and see how it can attract more users with new functions.</li>
+      <li>Develop the prototype further and include more functions. </li>
+      <li>Work more on branding and establish business goals.</li>
+    </ul>
+  </div>
+
+  <h2 id="headline-final">See other projects</h2>
+  <ul class="other-projects wow bounce" data-wow-iteration="5" data-wow-duration="1.4s">
+    <li><a href="https://www.behance.net/gallery/95451487/Terra-Plant-Recommendation-App" target="_blank" rel="noopener noreferrer">Plant care app (UI/UX)</a></li>
+    <li><a href="https://travelwebsite.herokuapp.com/" target="_blank" rel="noopener noreferrer">Travel blog (Front-end)</a></li>
+  </ul>
+
+  <div class="footer">
+    <p>&#169 Copyright 2020. Designed and coded by Petra. 🐶 <a href="https://github.com/petra-stef/portfolio" target="_blank" rel="noopener noreferrer">Github</a></p>
+  </div>
 
 </body>
 <script src="scroll.js"></script>
+
 </html>
